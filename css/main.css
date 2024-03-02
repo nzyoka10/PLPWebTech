@@ -7,3 +7,10 @@ body{
     color: whitesmoke;
 }
 
+a:visited{
+    color: #eee;
+}
+
+a:hover, a.active {
+    color: salmon
+}
