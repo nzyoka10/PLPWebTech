@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background: crimson;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 4px 124px;
+    //position:fixed;
+    
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+}
+
+#logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    padding-left: 22px;
+}
+
+#logo:hover{
+    color: wheat;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: wheat;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding-right: 20px;
+   
+}
+
+nav ul li a:hover{
+    color: white;
+    border-bottom: 3px solid wheat;
+    border-radius: 124px 16px;
+    transition: 2ms ease-in;
+}
+
+/** Tech images styling*/
+
+/* Tech images styling */
+#home {
+    display: flex;
+    justify-content:flex-start; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+/* Style the link */
+#home a {
+    margin: 8px; /* Add space between images */
+}
+
+/* Style the image inside the link */
+#home img {
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+    max-height: 30vh;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+div .gallery{
+    display: flex;
+    justify-content:flex-start; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */   
+}
+
+.gallery a {
+    margin: 8px; /* Add space between images */
+}
+
+/* Style the image inside the link */
+.gallery img {
+    max-width: 100%; /* Ensure image doesn't exceed its container */
+    max-height: 30vh;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust margin between items if needed */
+}
+
+#menu img {
+    width: 70px; /* Adjust the width of the images as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust margin between image and text */
+}
+
+#menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+}

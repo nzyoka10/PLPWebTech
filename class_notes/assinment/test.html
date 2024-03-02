@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <!--style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        nav ul li a:hover {
+            color: #666;
+        }
+
+        #home a img{
+            display: inline-block;
+            // grid-template-columns: repeat(2, 200px);
+            gap: 10px;
+            width: 30%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+        }
+    </!--style-->
+        <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <div id="navBar">
+            <h1 id="logo">
+                Images | Links
+            </h1>
+    
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    
+    <main>
+        <h2>Technology images</h2>
+        <p>Welcome to my website! Below is an image related to technology:</p>
+        
+        <section id="homeSection">
+
+            <div id="home">
+                <a href="https://plpacademy.powerlearnproject.org/available-courses/" target="_blank">
+                    <img src="./img/set-up.jpg" alt="Tech image" width="100%">
+                </a>
+                <a href="#">
+                    <img src="./img/tech3.jpg" alt="Tech image2" width="100%">
+                </a>
+                <a href="#">
+                    <img src="./img/tech2.jpg" alt="Nature image" width="100%">
+                </a>
+
+                <a href="#">
+                    <img src="./img/tech1.jpg" alt="Nature image" width="100%">
+                </a>
+
+                
+            </div>
+        </section>
+
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Nature images</p>
+            <div class="gallery">                
+                <a href="#gallery">
+                    <img src="./img/nature.jpg" alt="Nature image" width="330px">
+                </a>
+
+                <a href="#nature">
+                    <img src="./img/nature1.jpg" alt="Mountains image" >
+                </a>
+
+                <a href="#nature">
+                    <img src="./img/nature2.jpg" alt="Bridge image">
+                </a>
+
+                <a href="#nature">
+                    <img src="./img/nature2.jpg" alt="Bridge image">
+                </a>
+                
+            </div>
+
+          
+            <!-- div class="gallery">     
+                      <p>Foods</p>
+                <a href="#nature">
+                    <img src="./img/food3.jpg" alt="Bridge image">
+                </a>
+                
+                <a href="#!">
+                    <img src="./img/food1.jpg" alt="food  image">
+                </a>
+
+                <a href="#nature">
+                    <img src="./img/food2.jpg" alt="Mountains image" >
+                </a>
+                
+            </!div-->
+       
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <a href="https://example.com/food1">
+                        <img src="./img/food.jpg" alt="Food 1"> 
+                        Food Item 1
+                    </a>
+                </li>
+                <li>
+                    <a href="https://example.com/food2">
+                        <img src="./img/food1.jpg" alt="Food 2"> 
+                        Food Item 2
+                    </a>
+                </li>
+                <li>
+                    <a href="https://example.com/food3">
+                        <img src="./img/food3-bg.jpg" alt="Food 3"> 
+                        Food Item 3
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Image Links. All rights reserved.</p>
+    </footer>
+</body>
+</html>
