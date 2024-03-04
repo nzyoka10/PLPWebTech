@@ -1,13 +1,10 @@
-# Week One Assignment: Portfolio Website
+## Week One Assignment: Portfolio Website
 
 ## Introduction
-
-This is the README file for the Week One Assignment - Mini-Challenge: Portfolio Website. 
+- This is the README file for the Week One Assignment - Mini-Challenge: `Portfolio Website`.
 - The objective of this assignment is to create a simple portfolio website using HTML.
 
 ## Requirements
-
-To complete this assignment, you need to follow these requirements:
 
 1. Create an HTML file named `portfolio.html`.
 2. Design a navigation menu with at least three sections (e.g., Home, About, Projects).
@@ -26,3 +23,6 @@ To fulfill the requirements mentioned above, follow the steps below:
 4. Design the navigation menu with links to different sections.
 5. Write content for each section including headings, descriptions, and a list of projects.
 6. Save the file and test it in a web browser to ensure everything works as expected.
+7. Commit changes
+   
+**Live link: [here](https://github.com/portifolio/)
