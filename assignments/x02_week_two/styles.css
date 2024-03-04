@@ -104,6 +104,58 @@ h2 span{
     grid-row: span 2;
 }
 
+/* Menu section styling */
+#menu {
+    text-align: center;
+}
+
+#h2{
+    text-align: start;
+}
+
+.menu-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid with minimum width of 200px */
+    gap: 20px; /* Space between grid items */
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    text-align: center;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: inherit;
+    display: block; /* Ensure the entire area of the link is clickable */
+}
+
+.menu-list img {
+    width: 200px; /* Set width to desired size */
+    height: 200px; /* Set height to desired size */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    border-radius: 5px;
+}
+
+.menu-list span {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Footer */
+#footer {
+    text-align: center; /* Align text horizontally */
+    /* position: fixed; Stick the footer to the bottom */
+    width: 100%; /* Take up full width of the viewport */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    background-color: #333; /* Example background color */
+    padding: 20px 0; /* Add padding for spacing */
+}
+
+
+
+
 /* Anything under 1024px */
 @media screen and (max-width: 1024px)
 {
