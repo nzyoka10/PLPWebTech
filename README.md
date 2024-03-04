@@ -29,9 +29,19 @@
             <title>My First Website</title>
         </head>
         <body>
-            <h1>Welcome to my website!</h1>
-            <p>This is my first website.</p>
 
+            <!-- This this a comment -->
+            <!-- HTML heading :: h1 to h6  -->
+            <h1>Welcome to my website!</h1>
+
+            <!-- <h1>first Heading</h1> Largest -->
+            <!-- <h6> Last Heading<h6> Smallest -->
+            
+            <!-- HTML paragrah -->
+            <p>This is my first website.</p>
+            <!-- Image Tag -->
+            <img src="image.png"  alt="description of image" width="70%" height="57%"/>
+            
             <!--Lists -->
             <!-- Unordered List-->
                 <ul>
