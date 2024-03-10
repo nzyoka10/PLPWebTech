@@ -3,10 +3,25 @@
 /*& Universal selector */
 *{
     font-family: monospace;
+
+    /* border: 0.1em solid tomato;
+    border-radius: 12px;
+    width:  120px auto; */
 }
 
 body{
     font-size: 16px;
+}
+
+
+
+button, input, select, textarea {
+
+    /** they are able to inherit  the font family from their parent element */
+    font-family: inherit;
+    
+    /** they have a consistent appearance across browsers and platforms by setting default values for various properties */
+    font: inherit;
 }
 
 h1, h2{
@@ -34,4 +49,12 @@ p{
 
 /* p{
     color:red'
+} */
+
+/*! Sematic element  */
+/* * Appears almost in every web page */
+/* Re-useable code  */
+/* main{
+    color: goldenrod;
+    background-color: rgb(68, 55, 55);
 } */
