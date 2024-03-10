@@ -1,0 +1,55 @@
+/*
+*
+*    CSS typography
+*           is the way that text is arranged and presented!
+*
+*/
+
+body{
+    padding:10%;
+    font-size: 2rem;
+
+    /* color: purple; */
+
+    /* font-family: sans-serif; */
+    /* font-family: monospace;
+    font-family: fantasy; */
+    /* font-family: cursive; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    font-family: cursive;
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+.p{
+
+    /* font-weight: bolder; */
+    /* font-style: oblique; */
+    /* font-style: italic; */
+
+    
+
+    line-height: 1.5;
+
+
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-transform: uppercase; */
+
+    /* text-align: left; */
+    /* text-align: justify; */
+    /* text-align: right; */
+
+    /* text-indent: 2em; */
+
+    /* line-height: 1.5; */
+    /* letter-spacing: 0.1em;
+    word-spacing: 1.5em;*/
+
+}
+
+
