@@ -1,0 +1,37 @@
+/** styling */
+
+/*& Universal selector */
+*{
+    font-family: monospace;
+}
+
+body{
+    font-size: 16px;
+}
+
+h1, h2{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/*~ Class selector */
+.gray{
+    color: gray;
+}
+
+/*~ ID selector */
+#second{
+    font-style: italic;
+}
+
+/* p{
+    color:red'
+} */
