@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+    background: #444;
+    margin: 12px;
+    padding: 14px;
+}
+
+header{
+    border: 2px solid green;
+    color: #f6dfb4;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    text-align: center;
+   text-decoration: none;
+}
+
+header h1{
+    padding: 20px;
+}
+
+nav ul li{
+    border: 2px solid;
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 22px;
+    margin: 16px;
+}
+
+
+
+
+
