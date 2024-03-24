@@ -1,51 +1,230 @@
-/* Resetting default margin and padding */
-body, h1, h2, h3, p, ul, li {
+/* project custom css file   */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background: #020504;
+    --bg-color: #0f0e0e;
+
+    --primary-color: #FFDB78; 
+    --secondary-color: #D2FFBF;
+
+    --font-family: "Kode Mono", monospace;
+    --text-font: "Noto Sans", sans-serif;
+    --font-weight: normal;
+}
+
+body{
     margin: 0;
     padding: 0;
+    background: var(--background);
+    font-family: var(--font-family);
+    color: var(--primary-color);
 }
 
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
+/* Header Styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    justify-content: center;
     text-align: center;
+    font-size: 2.6em;
+    letter-spacing: 0.9em;
 }
 
+header h1 {
+    padding: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+header h1:hover{
+    color: var(--secondary-color);
+}
+
+/* Nav styling */
+nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--bg-color); 
+    height: 50px;
+    border: 0.4px inset var(--bg-color);
+}
 nav ul {
+    display: flex;
+    padding-top: 18px;
     list-style: none;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.nav-links {
+    margin: 0 16px; 
 }
 
-nav ul li a {
-    color: #fff;
+.nav-links a {
+    font-size: 16px; /* Font size */
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    text-transform: capitalize;
     text-decoration: none;
+    padding: 10px 15px; 
+    border-radius: 15px;
 }
 
-section {
+.nav-links a:hover {
+    color: var(--secondary-color);
+    border-bottom:1px solid var(--secondary-color); 
+}
+
+/** Main container section styling  */
+#content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 14px;
+    cursor: pointer;
+}
+
+/* Introduction Styles */
+#introduction {
     padding: 20px;
-    margin: 20px;
-    background-color: #fff;
+    margin: 20px 0;
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 12px;
+    background: var(--bg-color);
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    header {
-        padding: 10px;
-    }
+#introduction h2{
+    color: var(--primary-color);
+    font-size: 1.7em;
+    text-transform: capitalize;
+    letter-spacing: .6em;
 
-    nav ul li {
-        display: inline-flex;
-        margin-bottom: 10px;
-    }
+    margin-left: 20px;
+    padding: 12px;
+    font-weight: 800;
 }
+
+#introduction h2 span{
+    color: var(--secondary-color);
+}
+
+#introduction p{
+    margin: auto;
+    padding: 8px;
+    /* font-family: var(--text-font); */
+    font-weight: normal;
+    word-spacing: .2em;
+    line-height: 1.5;
+    max-width: 96%;
+}
+
+#introduction ol{
+    max-width: 75%;
+    align-items: center;
+}
+
+#introduction ol li{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    border: 1px outset var(--secondary-color);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: .7em;
+}
+
+#introduction ol li:hover{
+    background: var(--background);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Skills section Styles */
+#skills {
+    padding: 20px;
+    margin: 20px 0;
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 12px;
+    background: var(--bg-color);
+}
+
+#skills h2{
+    color: var(--primary-color);
+    font-size: 1.7em;
+    text-transform: capitalize;
+    letter-spacing: .6em;
+    margin-left: 20px;
+    padding: 12px;
+    font-weight: 800;
+}
+
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    text-align: start;
+    text-decoration: none;
+    list-style-type: none;
+    border: 1px outset var(--secondary-color);
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+  }
+  
+#skills ul li:hover{
+    background: var(--background);
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Projects Section Styles */
+#projects h2{
+    color: var(--primary-color);
+    font-size: 1.7em;
+    text-transform: capitalize;
+    letter-spacing: .6em;
+    padding: 12px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: calc(50% - 20px); /* Adjust width as needed */
+    margin: 10px; /* Adjust margin between cards*/
+    padding: 20px; /* Add padding of cards*/
+    background-color: #444;
+    border: 1px solid #333;
+    border-radius: 8px;
+    border-color: #bc8f8f;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: wheat;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    color: azure;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
