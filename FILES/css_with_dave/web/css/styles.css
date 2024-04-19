@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: wheat
+}
+
+/* ~ Header section styles */
+.header{
+    border-bottom: 4px solid #474545;
+    border-radius: 8px ;
+    cursor: pointer;
+
+    font-family: monospace;
+    padding: 4px;
+    display: flex;
+
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header h2{
+    margin: 6px;
+    padding: 16px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing: 0.6em;
+}
+
+.nav_bar ul .nav_links{
+    display: inline-block;
+    font-size: 1.3em;
+    margin-top: 12px;
+    padding: 22px 26px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+}
+
+a:hover{
+    color: #474545;
+    font-size: 1.2rem;
+}
+
+/** ---____ Section Main styles ----____  */
+.outter{
+    margin: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.main{
+    border: 3px solid tomato;
+    border-radius: 10px;
+
+    width: 40%;
+    margin: 12px;
+    padding: 20px;
+
+}
+
+
+
+.main h3, .right_side h3{
+    padding: 20px;
+    text-align: start;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.para{
+    text-align: justify;
+    color: whitesmoke;
+    line-height: 1.7em;
+}
+
+.right_side{
+    border: 3px solid tomato;
+    border-radius: 10px;
+
+    width: 40%;
+    margin: 12px;
+    padding: 20px;
+
+}
+
+.table{
+    border:  2px solid rgb(47, 56, 47);
+    border-radius: 12px;
+
+    margin-left: 28px;
+    padding: 22px;
+}
+
+.table:hover{
+    cursor: pointer;
+}
+
+.table_row .table_head th{
+    padding: 12px 13px;
+
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+
+.tbl_body .table_body td{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#status{
+    color: #30ef00;
+    text-transform: uppercase;
+}
+
+#status_red{
+    color: #ffea00;
+    text-transform: capitalize;
+}
+
+/*! Footer styling  */
+.footer{
+    border: 3px solid #474545;
+    border-radius: 122px;
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 8px;
+}
+
+.footer p{
+    padding: 8px;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

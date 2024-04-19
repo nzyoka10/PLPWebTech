@@ -1,0 +1,49 @@
+
+/* first css file */
+body{
+cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 60px;
+}
+
+h1{
+    padding: 20px 30px;
+    color: tomato;
+    letter-spacing: 8px;
+}
+
+h1:hover{
+    color: brown;
+    background-color: #222;
+    border-radius: 10px;
+    width: 60%;
+}
+
+p{
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+
+p:hover{
+    color: aqua;
+    background-color: #311717;
+    border-radius: 10px;
+    width: 40%;
+}
+
+p.para{
+    color: blue;
+    margin: 20px 8px;
+}
+
+.para:hover{
+    width: 80%;
+    background-color: white;
+    color: black;
+}
