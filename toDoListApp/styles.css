@@ -1,0 +1,201 @@
+/* Custom CSS file */
+@import url('https://fonts.googleapis.com/css?familFGochi+Hand');
+
+:root{
+    --bg-color: #3d3322;
+    --text-color: #fff;
+    --input-color: #ea95e0;
+    --input2-color: #ffea007d;
+    --btn-color: #51ff003b;
+    /* --text-font: 'Gochi Hand', cursive; */
+    --text-font: "Sedan", serif;
+    --font-size: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--bg-color);
+  font-family: var(--text-font);
+  font-size: var(--font-size);
+  min-height: 80vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    min-height: 100vh;
+  }
+}
+.container {
+cursor: pointer;
+  width: 100%;
+  height: auto;
+  min-height: 650px;
+  max-width: 700px;
+  min-width: 250px;
+  background: #333;
+  background-image: radial-gradient(rgba(218, 175, 20, 0.447), 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: -4px 3px 71px 2px #daaf145c;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.heading svg{
+    margin: 2px 28px;
+    padding: 4px 10px;
+    fill: var(--input2-color);
+    fill-opacity: .6;
+    transform: rotate(-13deg);
+    width: fit-content;
+    box-shadow: -20px -8px 4px rgba(81, 255, 0, 0.232);
+    border-radius: 16px;
+}
+
+.heading svg:hover{
+    transform: rotate(-4deg);
+    box-shadow: 10px -10px 5px rgba(81, 255, 0, 0.231);
+    border-radius: 20% 7% 20% 6%/21% 20% 25% 20%;
+}
+
+.heading_title {
+  transform: rotate(4deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 7% 20% 6%/2% 20% 25% 20%;
+  background-color: rgba(255, 234, 0, 0.49);
+  box-shadow: -13px 8px 4px rgba(81, 255, 0, 0.232);
+  font-size: 1.5rem;
+}
+
+.heading_title:hover{
+    transform: rotate(-4deg);
+    box-shadow: 10px -10px 5px rgba(81, 255, 0, 0.231);
+    border-radius: 20% 7% 20% 6%/21% 20% 25% 20%;
+}
+
+@media only screen and (min-width: 500px) {
+  .heading_title {
+    font-size: 2rem;
+  }
+}
+.heading_img {
+  width: 24%;
+}
+.form_label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form_input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: inset 3px var(--input2-color);
+  font-family: var(--text-font)
+  font-size: 1rem;
+  color: rgba(63, 62, 65, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+.form_input:focus {
+  outline: none;
+  border: solid 3px var(--input2-color);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+
+@media only screen and (min-width: 500px) {
+  .form_input {
+    width: 60%;
+  }
+}
+.button {
+  padding: 0;
+  border: none;
+  transform: rotate(-4deg);
+  cursor: pointer;
+  transform-origin: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #494a4b;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url('your_image_url_here');
+  background-color: var(--btn-color);
+}
+
+.button span {
+  background: var(--input2-color);
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 2px solid #494a4b;
+}
+
+.button:active,
+.button:focus {
+  transform: translateY(4px);
+  padding-bottom: 0px;
+  outline: 0;
+}
+
+.button:hover{
+    transform: translateX(8px);
+    background: var(--btn-color);
+}
+
+.toDoList {
+  text-align: start;
+}
+.toDoList li {
+color: var(--text-color);
+letter-spacing: 3px;
+text-transform: uppercase;
+text-decoration: none;
+list-style: none;
+font-weight: 500;
+  position: relative;
+  padding: 0.5rem;
+}
+.toDoList li:hover {
+  text-decoration: line-through solid var(--input2-color);
+}
+
+.tosdo{
+background-color: var(--input2-color);
+color: var(--bg-color);
+margin-top: 0;
+padding: 10px 20px;
+border-radius: 8px;
+width: fit-content;
+    font-size: 1.6em;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-align: center;
+}
+
+.tosdo:hover{
+    transform: translateY(6px) scale(0.97);
+    transition: all .2s ease-in-out;
+}
+
